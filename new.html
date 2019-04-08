@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sean's Journal</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="contain fade-in one">
+            <div class="leftside">
+                <span class="Title">Sean's Daily Journal</span>
+                <a class="test2" href="index.html"> <div class="test"> HOME</div></a>
+                <div class="test"> <a class="test" href="new.html">New Post</a></div>
+                <div class="test2">  <a class="test2" href="about.html">ABOUT ME</a> </div>
+                <div class="test3"> <a class="test3" href="https://github.com/Sglavin85">GITHUB PROFILE</a> </div>
+                <div class="test4"> <a class="test4" href="mailto:sean@glavin.us">CONTACT ME</a> </div> 
+            </div>
+            
+            <div class="content fade-in two">
+                <div class="article">
+                    <form action="action_page.php" target="_self" method="POST" >
+                            <fieldset>
+                                <legend> NEW JOURNAL POST </legend>
+                                Title: 
+                                <input type="text" name="title"><br>
+                                <label for="currentMood">Current Mood:</label>
+                                <select name="currentMood">
+                                        <option value="happy">Happy</option>
+                                        <option value="confident">Confident</option>
+                                        <option value="frustrated">Frustrated</option>
+                                        <option value="angry">Angry</option>
+                                        <option value="meh">Meh</option>
+                                </select><br>
+
+                                <label for="date">Journal Date: </label>
+                                <input type="date" name="date" id="date" value="2019-04-15" min="2015-01-01" max="2025-12-31"><br>
+                                
+                                <label for="post">Post:</label><br>
+                                <textarea name="post" cols="150" rows="50"></textarea>
+                                <br>
+                                <input type="submit" value="Record Journal Entry">
+                              
+                            </fieldset>
+
+
+                    </form>
+                </div>
+            </div>
+
+            <div class="rightside fade-in one">
+                <aside>
+                    <h1>Tags</h1>
+                    <p>geiajgieajg</p>
+                </aside>
+                <aside>
+                    <h1>Videos</h1>
+                    <p>eafooekfe</p>
+                </aside>
+                <aside>
+                    <h1>Pics</h1>
+                    <p>adsfjaeifjiaejf</p>
+                </aside>
+            </div>
+    </div>   
+    
+</body>
+
+</html>
